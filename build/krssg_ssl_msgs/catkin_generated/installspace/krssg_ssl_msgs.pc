@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: krssg_ssl_msgs
+Description: Description of krssg_ssl_msgs
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/install/include
+Libs: -L/home/ss/robocup/install/lib 
+Requires: geometry_msgs std_msgs message_runtime

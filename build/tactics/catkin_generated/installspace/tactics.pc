@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: tactics
+Description: Description of tactics
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/install/include
+Libs: -L/home/ss/robocup/install/lib -ltactics
+Requires: roscpp rospy std_msgs

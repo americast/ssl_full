@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/devel
+
+Name: traj_controller
+Description: Description of traj_controller
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/src/traj_controller/include
+Libs: -L/home/ss/robocup/devel/lib -ltraj_controller
+Requires: krssg_ssl_msgs roscpp rospy std_msgs

@@ -1,0 +1,130 @@
+========================================================================
+ VarTypes
+ Author:  Stefan Zickler <http://szickler.net>, (C) 2007-2011
+ Available at: http://code.google.com/p/vartypes/
+========================================================================
+ This software is free: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License Version 3,
+ as published by the Free Software Foundation.
+
+ This software is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License
+ Version 3 in the file COPYING that came with this distribution.
+ If not, see <http://www.gnu.org/licenses/>.
+========================================================================
+
+=======================================================================
+ Changelog:
+ 06/10/11 - v0.7 - Changed to shared_ptr model for all VarTypes.
+                 - VarTypes now requires the tr1 C++ extensions.
+ 10/25/10 - v0.6 - Re-licensed from GPL to LGPL, so VarTypes can now be
+                   used in commercial applications.
+                 - Added CMake files for building shared library.
+                 - Removed directory prefixes from include directives to
+                   be compliant with cmake's library installation.
+                 - Qt is now a requirement for compilation. Removed all
+                   VDATA_NO_QT statements.
+ 12/04/09 - v0.5 - The VarTypes system now lives in the "VarTypes"
+                   namespace.
+                 - renamed "VarData" class to "VarType"
+                 - restructured code to separate between a full "VarType"
+                   and its containing raw data value "VarVal",
+                   allowing better integration in projects
+                   where pure high-performance data-types are required
+                   without the VarData overhead (caused by e.g.
+                   mutexes and the string-label + render-flags
+                   associated with each VarData type).
+                 - VarTypes are now template-instanciated through
+                   "VarTypeTemplate"
+                 - added the VarTypesFactory class, allowing easier,
+                   single-point creation of custom user-defined VarTypes
+                   by inheriting the VarTypesFactory.
+                 - added the clone() and cloneDeep() operators for
+                   all VarVals.
+                 - added binary string store load interface.
+                 - renamed all enumerations using more reasonable
+                   conventions
+                 - changed "renderFlags" to just "Flags" since
+                   they control much more than just render behavior.
+                 - changed string handling in XML i/o for
+                   code safety improvements
+                 - compilation should now work in windows                   
+ 4/16/09  - v0.4 - added multi-item selection type
+                 - added VarNotifier class to catch change-events
+                   for entire sub-trees
+                 - fixed several bugs
+                 - improved visualization:
+                    - used persistent editors where applicable
+                    - bools now based on checkboxes
+                    - moves delegate functionality into respective
+                      type classes
+ 10/31/08 - v0.3 - added string enums, fixed various performance bugs
+                 - added doxygen-style headers to files and classes
+ 11/13/07 - v0.2 - basic thread-safety added
+                 - added VarQWidget and VarTrigger (buttons) types
+                 - added persistent editor flag
+                 - added no-load and no-save flags
+  9/27/07 - v0.1 - first release
+========================================================================
+
+ About:       VarTypes is a feature-rich, object-oriented framework
+              for managing variables in C++ / QT4.
+
+ Features:    VarTypes allows hierarchical organization, thread-safety,
+              load/store to/from xml, QT4-based signals, QT4-based model/view
+              visualization.
+
+              VarTypes aims to make it easy for application developers to
+              integrate automatic settings loading/storage, even for complex
+              trees of settings. At the same time it allows a user to comfortably
+              edit such settings in real-time without any risks of concurrency
+              problems.
+
+              Among supported base types are int, bool, double, string,
+              string enumerations, lists, binary data, and triggers.
+              More complex types can be added easily by inheriting the
+              VarData base-class.
+
+ Requires:    cmake, Qt >=4.5, C++ tr1 libraries (automatically supplied by
+              many modern compilers).
+
+ Usage:       An example including the QT4 GUI is located in the example/
+              directory. To build, make sure you have QT >= 4.3 installed
+              then cd into "example/" and run "qmake example.pro"
+              (note that on some distributions it's "qmake-qt4" instead
+              of just qmake. In fact qmake might link to qmake3 which
+              will fail miserably on the QT4-style .pro file).
+              Qmake will generate a standard makefile.
+              Then run "make" and it should build the program.
+              You can then run the program "./example"
+
+              All the interesting code on how to construct a vartree and
+              GUI is located in example/mainwindow.cpp
+
+              The actual library can be built by running:
+              1) make
+              2) sudo make install
+              Note that cmake is required to build it.
+
+ Files:       vartypes/primitives/
+                  includes all basic vartype-datastructures
+
+              vartypes/VarTypes.h
+                  is the main header to include to make use of the system
+
+              vartypes/primitives/VarType.h
+                  is the base-class of all vartypes
+
+              vartypes/gui/
+                  includes all GUI related QT widgets. Note that some of
+                  them are in development and/or deprecated.
+                  You will only need to compile the ones as shown in
+                  the example code (see example/example.pro).
+
+             vartypes/xml/
+                  includes the XML file parser/writer which was written by
+                  and is copyrighted by Frank Vanden Berghen.

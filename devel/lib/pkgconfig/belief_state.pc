@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/devel
+
+Name: belief_state
+Description: Description of belief_state
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ss/robocup/devel/lib 
+Requires: 

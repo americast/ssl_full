@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/devel
+
+Name: grsim_comm
+Description: Description of grsim_comm
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/src/grsim_comm/include
+Libs: -L/home/ss/robocup/devel/lib -lssl_communication
+Requires: roscpp rospy std_msgs krssg_ssl_msgs

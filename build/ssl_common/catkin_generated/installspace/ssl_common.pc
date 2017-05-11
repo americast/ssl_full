@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: ssl_common
+Description: Description of ssl_common
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/install/include
+Libs: -L/home/ss/robocup/install/lib -lssl_common
+Requires: roscpp rospy std_msgs

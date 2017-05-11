@@ -1,0 +1,7 @@
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/install.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/list_install_components.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/rebuild_cache.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/vartypes.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/install/local.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/install/strip.dir
+/home/ss/robocup/src/tenp/vartypes-0.7/build/CMakeFiles/edit_cache.dir
