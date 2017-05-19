@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: tactics_py
+Description: Description of tactics_py
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ss/robocup/install/lib 
+Requires: 

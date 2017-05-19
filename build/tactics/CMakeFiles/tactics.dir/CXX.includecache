@@ -609,8 +609,6 @@ rapidjson/stringbuffer.h
 /home/ss/robocup/src/tactics/src/rapidjson/stringbuffer.h
 iostream
 -
-fstream
--
 stdio.h
 -
 ssl_common/geometry.hpp

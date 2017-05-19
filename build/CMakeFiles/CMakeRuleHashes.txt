@@ -14,6 +14,7 @@ b91419f7f185e7cdbeec9096da295620 /home/ss/robocup/devel/include/krssg_ssl_msgs/g
 61f59e1f9f2a1243e21cd0b040986bf5 /home/ss/robocup/devel/include/krssg_ssl_msgs/sslDebug_Circle.h
 ea6c04a206e41de13268d13b752c9050 /home/ss/robocup/devel/include/krssg_ssl_msgs/sslDebug_Data.h
 ddd5f3b0023b3495c0247e82bef03e96 /home/ss/robocup/devel/include/krssg_ssl_msgs/sslDebug_Line.h
+0b917a5985ede2e86d59c8bc9b0f572b /home/ss/robocup/devel/include/plays_py/role_to_play.h
 18811e1d5b71386b32ded829c4741013 /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_BeliefState.py
 5ce0a66869845cc5214771188413f59f /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_SSL_DetectionBall.py
 879c08bf0a67e2bd0ffaaa7301b7e696 /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_SSL_DetectionFrame.py
@@ -30,6 +31,8 @@ ef74e5fe7855689457d32c657428de81 /home/ss/robocup/devel/lib/python2.7/dist-packa
 736fc5380a47554a77d18aa5135902bf /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_sslDebug_Circle.py
 57499895431aee5db845aec24d4e3751 /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_sslDebug_Data.py
 bf1132d9e581592e979458fe244c39e1 /home/ss/robocup/devel/lib/python2.7/dist-packages/krssg_ssl_msgs/msg/_sslDebug_Line.py
+04d58fb977a0cc64a7c71cd11153e32d /home/ss/robocup/devel/lib/python2.7/dist-packages/plays_py/srv/__init__.py
+9a778dee9934ff015f047322b350b884 /home/ss/robocup/devel/lib/python2.7/dist-packages/plays_py/srv/_role_to_play.py
 a07e974af0090209ea1fe35466fa7988 /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/BeliefState.lisp
 1ebed1fe74873ad7c5fb813fe2e39354 /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/SSL_DetectionBall.lisp
 6f2b83dc621cd19e8b0d74c2e37147b1 /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/SSL_DetectionFrame.lisp
@@ -45,6 +48,7 @@ f0c66c27ee200b716eb009c8df960c42 /home/ss/robocup/devel/share/common-lisp/ros/kr
 8e514461d5276f1f33c37ddcd9e48301 /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/sslDebug_Circle.lisp
 3876ac9cdead18c2cd4bcb49ca22539e /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/sslDebug_Data.lisp
 815bb5374ef83ae02045c94da70b0115 /home/ss/robocup/devel/share/common-lisp/ros/krssg_ssl_msgs/msg/sslDebug_Line.lisp
+b817e264efd266f8e9871d8ef37544c2 /home/ss/robocup/devel/share/common-lisp/ros/plays_py/srv/role_to_play.lisp
 320238f87be24856da3ed2e65aafb5ac /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/BeliefState.js
 406b3576e9d67a8ef32aac67228149d4 /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/SSL_DetectionBall.js
 11fc1769ec66af349f78246a454a4037 /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/SSL_DetectionFrame.js
@@ -60,6 +64,7 @@ bf611492a34ffb8c3521135963ef9122 /home/ss/robocup/devel/share/gennodejs/ros/krss
 a40a374a4714768994da68360cc51862 /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/sslDebug_Circle.js
 7a133c52288a12a4be2b95e6658e23bd /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/sslDebug_Data.js
 faa74c163a7c2eb4279a94b036a6c394 /home/ss/robocup/devel/share/gennodejs/ros/krssg_ssl_msgs/msg/sslDebug_Line.js
+9bfe091ea6bfbd3924f7d2bd9908e3d7 /home/ss/robocup/devel/share/gennodejs/ros/plays_py/srv/role_to_play.js
 0658595389cc10667c3d512ce77bed1d /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/manifest.l
 0975514c909e822ca5e2b030084675b7 /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/msg/BeliefState.l
 4dee3c25d54b99bd7fbb1bdb19d57eb2 /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/msg/SSL_DetectionBall.l
@@ -76,6 +81,8 @@ da5df95a80a4386848b8036ece067ebf /home/ss/robocup/devel/share/roseus/ros/krssg_s
 867417fdf89fc5a95d6c8b49a5646339 /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/msg/sslDebug_Circle.l
 51c45a4570df6b478165a91702f68299 /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/msg/sslDebug_Data.l
 1780fdd612e4a55332e924b86948e1c1 /home/ss/robocup/devel/share/roseus/ros/krssg_ssl_msgs/msg/sslDebug_Line.l
+59e9d801e4a10bfe04442b8c4898cc1e /home/ss/robocup/devel/share/roseus/ros/plays_py/manifest.l
+b35cc649ea7fcae0e7606a360f92d6d9 /home/ss/robocup/devel/share/roseus/ros/plays_py/srv/role_to_play.l
 25ecf4609de58fe5611236f35cfa0af1 CMakeFiles/clean_test_results
 233a4f1c10cd644663608761b6dfcf31 grSim/CMakeFiles/project_automoc
 bde6e6cf52ae018a98380ac6a1706d83 grSim/clients/qt/CMakeFiles/client_automoc
@@ -124,6 +131,12 @@ bd2db116a3cdeec89a6cceabc9dc4b98 krssg_ssl_msgs/CMakeFiles/_krssg_ssl_msgs_gener
 2e6d8239a3c8c0975404a55559cb665c krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_lisp
 2e6d8239a3c8c0975404a55559cb665c krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_nodejs
 2e6d8239a3c8c0975404a55559cb665c krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py
+12418c24d39990a56126a849e389dfbc plays_py/CMakeFiles/_plays_py_generate_messages_check_deps_role_to_play
+28e3f5eca364651e1b604bfe3dbf067b plays_py/CMakeFiles/plays_py_generate_messages_cpp
+28e3f5eca364651e1b604bfe3dbf067b plays_py/CMakeFiles/plays_py_generate_messages_eus
+28e3f5eca364651e1b604bfe3dbf067b plays_py/CMakeFiles/plays_py_generate_messages_lisp
+28e3f5eca364651e1b604bfe3dbf067b plays_py/CMakeFiles/plays_py_generate_messages_nodejs
+28e3f5eca364651e1b604bfe3dbf067b plays_py/CMakeFiles/plays_py_generate_messages_py
 4520b61eba393ee0c700cbdea6eb44f5 robojackets/CMakeFiles/robojackets_automoc
 cbec2fffb1a92b54e99966b97d4890cd robojackets/CMakeFiles/tester_automoc
 1f047b8e3bc6fe82224604999cbc4d40 skills/CMakeFiles/skills_automoc

@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: skills_py
+Description: Description of skills_py
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ss/robocup/install/lib 
+Requires: 

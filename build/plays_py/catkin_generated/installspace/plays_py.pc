@@ -1,0 +1,8 @@
+prefix=/home/ss/robocup/install
+
+Name: plays_py
+Description: Description of plays_py
+Version: 0.0.0
+Cflags: -I/home/ss/robocup/install/include
+Libs: -L/home/ss/robocup/install/lib 
+Requires: 

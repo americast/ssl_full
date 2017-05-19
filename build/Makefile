@@ -1011,6 +1011,162 @@ test_ssl_automoc/fast:
 .PHONY : test_ssl_automoc/fast
 
 #=============================================================================
+# Target rules for targets named plays_py_generate_messages_py
+
+# Build rule for target.
+plays_py_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages_py
+.PHONY : plays_py_generate_messages_py
+
+# fast build rule for target.
+plays_py_generate_messages_py/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages_py.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages_py.dir/build
+.PHONY : plays_py_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_genpy
+
+# Build rule for target.
+plays_py_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_genpy
+.PHONY : plays_py_genpy
+
+# fast build rule for target.
+plays_py_genpy/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_genpy.dir/build.make plays_py/CMakeFiles/plays_py_genpy.dir/build
+.PHONY : plays_py_genpy/fast
+
+#=============================================================================
+# Target rules for targets named _plays_py_generate_messages_check_deps_role_to_play
+
+# Build rule for target.
+_plays_py_generate_messages_check_deps_role_to_play: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _plays_py_generate_messages_check_deps_role_to_play
+.PHONY : _plays_py_generate_messages_check_deps_role_to_play
+
+# fast build rule for target.
+_plays_py_generate_messages_check_deps_role_to_play/fast:
+	$(MAKE) -f plays_py/CMakeFiles/_plays_py_generate_messages_check_deps_role_to_play.dir/build.make plays_py/CMakeFiles/_plays_py_generate_messages_check_deps_role_to_play.dir/build
+.PHONY : _plays_py_generate_messages_check_deps_role_to_play/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_generate_messages_eus
+
+# Build rule for target.
+plays_py_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages_eus
+.PHONY : plays_py_generate_messages_eus
+
+# fast build rule for target.
+plays_py_generate_messages_eus/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages_eus.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages_eus.dir/build
+.PHONY : plays_py_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_geneus
+
+# Build rule for target.
+plays_py_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_geneus
+.PHONY : plays_py_geneus
+
+# fast build rule for target.
+plays_py_geneus/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_geneus.dir/build.make plays_py/CMakeFiles/plays_py_geneus.dir/build
+.PHONY : plays_py_geneus/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_gencpp
+
+# Build rule for target.
+plays_py_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_gencpp
+.PHONY : plays_py_gencpp
+
+# fast build rule for target.
+plays_py_gencpp/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_gencpp.dir/build.make plays_py/CMakeFiles/plays_py_gencpp.dir/build
+.PHONY : plays_py_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_generate_messages_nodejs
+
+# Build rule for target.
+plays_py_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages_nodejs
+.PHONY : plays_py_generate_messages_nodejs
+
+# fast build rule for target.
+plays_py_generate_messages_nodejs/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages_nodejs.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages_nodejs.dir/build
+.PHONY : plays_py_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_generate_messages
+
+# Build rule for target.
+plays_py_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages
+.PHONY : plays_py_generate_messages
+
+# fast build rule for target.
+plays_py_generate_messages/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages.dir/build
+.PHONY : plays_py_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_generate_messages_lisp
+
+# Build rule for target.
+plays_py_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages_lisp
+.PHONY : plays_py_generate_messages_lisp
+
+# fast build rule for target.
+plays_py_generate_messages_lisp/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages_lisp.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages_lisp.dir/build
+.PHONY : plays_py_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_genlisp
+
+# Build rule for target.
+plays_py_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_genlisp
+.PHONY : plays_py_genlisp
+
+# fast build rule for target.
+plays_py_genlisp/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_genlisp.dir/build.make plays_py/CMakeFiles/plays_py_genlisp.dir/build
+.PHONY : plays_py_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_generate_messages_cpp
+
+# Build rule for target.
+plays_py_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_generate_messages_cpp
+.PHONY : plays_py_generate_messages_cpp
+
+# fast build rule for target.
+plays_py_generate_messages_cpp/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_generate_messages_cpp.dir/build.make plays_py/CMakeFiles/plays_py_generate_messages_cpp.dir/build
+.PHONY : plays_py_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named plays_py_gennodejs
+
+# Build rule for target.
+plays_py_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plays_py_gennodejs
+.PHONY : plays_py_gennodejs
+
+# fast build rule for target.
+plays_py_gennodejs/fast:
+	$(MAKE) -f plays_py/CMakeFiles/plays_py_gennodejs.dir/build.make plays_py/CMakeFiles/plays_py_gennodejs.dir/build
+.PHONY : plays_py_gennodejs/fast
+
+#=============================================================================
 # Target rules for targets named robojackets
 
 # Build rule for target.
@@ -1283,6 +1439,18 @@ help:
 	@echo "... grsim_wheelspeed_node_automoc"
 	@echo "... grsim_xyw_node_automoc"
 	@echo "... test_ssl_automoc"
+	@echo "... plays_py_generate_messages_py"
+	@echo "... plays_py_genpy"
+	@echo "... _plays_py_generate_messages_check_deps_role_to_play"
+	@echo "... plays_py_generate_messages_eus"
+	@echo "... plays_py_geneus"
+	@echo "... plays_py_gencpp"
+	@echo "... plays_py_generate_messages_nodejs"
+	@echo "... plays_py_generate_messages"
+	@echo "... plays_py_generate_messages_lisp"
+	@echo "... plays_py_genlisp"
+	@echo "... plays_py_generate_messages_cpp"
+	@echo "... plays_py_gennodejs"
 	@echo "... robojackets"
 	@echo "... tester"
 	@echo "... robojackets_automoc"

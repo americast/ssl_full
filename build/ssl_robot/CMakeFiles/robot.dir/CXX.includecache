@@ -133,6 +133,8 @@ tactics/tactic_factory.h
 /home/ss/robocup/src/ssl_robot/src/tactics/tactic_factory.h
 stdio.h
 -
+fstream
+-
 ros/ros.h
 /home/ss/robocup/src/ssl_robot/src/ros/ros.h
 robot.h

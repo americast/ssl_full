@@ -1,2 +1,2 @@
-belief_state:grSim:grsim_comm:kgpkubs_launch:krssg_ssl_msgs:navigation:play:robojackets:skills:ssl_common:ssl_robot:tactics:vision_comm
+belief_state:grSim:grsim_comm:kgpkubs_launch:krssg_ssl_msgs:navigation:navigation_py:play:plays_py:robojackets:skills:skills_py:ssl_common:ssl_robot:tactics:tactics_py:vision_comm
 -DCATKIN_DEVEL_PREFIX=/home/ss/robocup/devel -DCMAKE_INSTALL_PREFIX=/home/ss/robocup/install -G Unix Makefiles

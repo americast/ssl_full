@@ -1073,10 +1073,22 @@ navigation_LIB_DEPENDS:STATIC=general;ssl_common;general;/opt/ros/kinetic/lib/li
 navigation_SOURCE_DIR:STATIC=/home/ss/robocup/src/navigation
 
 //Value Computed by CMake
+navigation_py_BINARY_DIR:STATIC=/home/ss/robocup/build/navigation_py
+
+//Value Computed by CMake
+navigation_py_SOURCE_DIR:STATIC=/home/ss/robocup/src/navigation_py
+
+//Value Computed by CMake
 play_BINARY_DIR:STATIC=/home/ss/robocup/build/play
 
 //Value Computed by CMake
 play_SOURCE_DIR:STATIC=/home/ss/robocup/src/play
+
+//Value Computed by CMake
+plays_py_BINARY_DIR:STATIC=/home/ss/robocup/build/plays_py
+
+//Value Computed by CMake
+plays_py_SOURCE_DIR:STATIC=/home/ss/robocup/src/plays_py
 
 //Value Computed by CMake
 robojackets_BINARY_DIR:STATIC=/home/ss/robocup/build/robojackets
@@ -1124,6 +1136,12 @@ skills_LIB_DEPENDS:STATIC=general;navigation;general;ssl_common;general;/opt/ros
 skills_SOURCE_DIR:STATIC=/home/ss/robocup/src/skills
 
 //Value Computed by CMake
+skills_py_BINARY_DIR:STATIC=/home/ss/robocup/build/skills_py
+
+//Value Computed by CMake
+skills_py_SOURCE_DIR:STATIC=/home/ss/robocup/src/skills_py
+
+//Value Computed by CMake
 ssl_common_BINARY_DIR:STATIC=/home/ss/robocup/build/ssl_common
 
 //The directory containing a CMake configuration file for ssl_common.
@@ -1158,6 +1176,12 @@ tactics_LIB_DEPENDS:STATIC=general;ssl_common;general;skills;general;/opt/ros/ki
 
 //Value Computed by CMake
 tactics_SOURCE_DIR:STATIC=/home/ss/robocup/src/tactics
+
+//Value Computed by CMake
+tactics_py_BINARY_DIR:STATIC=/home/ss/robocup/build/tactics_py
+
+//Value Computed by CMake
+tactics_py_SOURCE_DIR:STATIC=/home/ss/robocup/src/tactics_py
 
 //Value Computed by CMake
 traj_controller_BINARY_DIR:STATIC=/home/ss/robocup/build/traj_controller
@@ -1288,7 +1312,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -275,8 +275,8 @@ QString
 -
 
 /home/ss/robocup/src/robojackets/include/robojackets/planning/RRTPlanner.hpp
-robojackets/planning/SingleRobotBezierPathPlanner.hpp
-/home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/SingleRobotBezierPathPlanner.hpp
+robojackets/planning/SingleRobotPathPlanner.hpp
+/home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/SingleRobotPathPlanner.hpp
 robojackets/planning/Tree.hpp
 /home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/Tree.hpp
 robojackets/Geometry2d/ShapeSet.hpp
@@ -411,8 +411,6 @@ Geometry2d/Point.hpp
 -
 planning/SingleRobotPathPlanner.hpp
 -
-iostream
--
 
 /home/ss/robocup/src/robojackets/src/Pid.cpp
 Pid.hpp
@@ -497,10 +495,6 @@ planning/SingleRobotPathPlanner.hpp
 /home/ss/robocup/src/robojackets/src/planning/planning/SingleRobotPathPlanner.hpp
 planning/RRTPlanner.hpp
 /home/ss/robocup/src/robojackets/src/planning/planning/RRTPlanner.hpp
-planning/visibility.hpp
-/home/ss/robocup/src/robojackets/src/planning/planning/visibility.hpp
-planning/recursivePlanner.hpp
-/home/ss/robocup/src/robojackets/src/planning/planning/recursivePlanner.hpp
 
 /home/ss/robocup/src/robojackets/src/planning/Tree.cpp
 planning/Tree.hpp

@@ -2892,6 +2892,7 @@ robojackets/CMakeFiles/robojackets.dir/src/planning/RRTPlanner.cpp.o
  /home/ss/robocup/src/robojackets/include/robojackets/planning/MotionInstant.hpp
  /home/ss/robocup/src/robojackets/include/robojackets/planning/Path.hpp
  /home/ss/robocup/src/robojackets/include/robojackets/planning/RRTPlanner.hpp
+ /home/ss/robocup/src/robojackets/include/robojackets/planning/SingleRobotPathPlanner.hpp
  /home/ss/robocup/src/robojackets/include/robojackets/planning/Tree.hpp
  /home/ss/robocup/src/robojackets/include/robojackets/planning/Util.hpp
  /home/ss/robocup/src/robojackets/include/robojackets/time.hpp

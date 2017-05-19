@@ -203,8 +203,8 @@ QString
 -
 
 /home/ss/robocup/src/robojackets/include/robojackets/planning/RRTPlanner.hpp
-robojackets/planning/SingleRobotBezierPathPlanner.hpp
-/home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/SingleRobotBezierPathPlanner.hpp
+robojackets/planning/SingleRobotPathPlanner.hpp
+/home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/SingleRobotPathPlanner.hpp
 robojackets/planning/Tree.hpp
 /home/ss/robocup/src/robojackets/include/robojackets/planning/robojackets/planning/Tree.hpp
 robojackets/Geometry2d/ShapeSet.hpp
