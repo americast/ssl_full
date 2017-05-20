@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ss/robocup/src/tactics/src/tAttackSupport1_Center.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o"
   "/home/ss/robocup/src/tactics/src/tAttackSupport1_Wing.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o"
-  "/home/ss/robocup/src/tactics/src/tDefendARC.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o"
+  "/home/ss/robocup/src/tactics/src/tDefendARC_left.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o"
+  "/home/ss/robocup/src/tactics/src/tDefendARC_right.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o"
   "/home/ss/robocup/src/tactics/src/tDribbleTurnPass.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o"
   "/home/ss/robocup/src/tactics/src/tGoToBall.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o"
   "/home/ss/robocup/src/tactics/src/tGoalie.cpp" "/home/ss/robocup/build/tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o"

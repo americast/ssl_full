@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/play_node.dir/src/ps.cpp.o"
   "CMakeFiles/play_node.dir/src/robot.cpp.o"
   "CMakeFiles/play_node.dir/src/pPassTest.cpp.o"
+  "CMakeFiles/play_node.dir/src/refPlays.cpp.o"
   "/home/ss/robocup/devel/lib/play/play_node.pdb"
   "/home/ss/robocup/devel/lib/play/play_node"
 )

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ss/robocup/src/plays/src/playBook.cpp" "/home/ss/robocup/build/plays/CMakeFiles/play_node.dir/src/playBook.cpp.o"
   "/home/ss/robocup/src/plays/src/pmain.cpp" "/home/ss/robocup/build/plays/CMakeFiles/play_node.dir/src/pmain.cpp.o"
   "/home/ss/robocup/src/plays/src/ps.cpp" "/home/ss/robocup/build/plays/CMakeFiles/play_node.dir/src/ps.cpp.o"
+  "/home/ss/robocup/src/plays/src/refPlays.cpp" "/home/ss/robocup/build/plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o"
   "/home/ss/robocup/src/plays/src/robot.cpp" "/home/ss/robocup/build/plays/CMakeFiles/play_node.dir/src/robot.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

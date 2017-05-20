@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ss/robocup/src/navigation/src/planners/mergescurve.cpp" "/home/ss/robocup/build/navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o"
   "/home/ss/robocup/src/navigation/src/planners/naivepp.cpp" "/home/ss/robocup/build/navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o"
   "/home/ss/robocup/src/navigation/src/planners/scurve.cpp" "/home/ss/robocup/build/navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o"
+  "/home/ss/robocup/src/navigation/src/planners/wrapperc.cpp" "/home/ss/robocup/build/navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

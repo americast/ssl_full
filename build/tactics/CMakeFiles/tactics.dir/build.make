@@ -153,33 +153,9 @@ tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o.provides: tactics/CMakeFiles/
 tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o.provides.build: tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o
 
 
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o: /home/ss/robocup/src/tactics/src/tDefendARC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o"
-	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tDefendARC.cpp.o -c /home/ss/robocup/src/tactics/src/tDefendARC.cpp
-
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tactics.dir/src/tDefendARC.cpp.i"
-	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/tactics/src/tDefendARC.cpp > CMakeFiles/tactics.dir/src/tDefendARC.cpp.i
-
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tactics.dir/src/tDefendARC.cpp.s"
-	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/tactics/src/tDefendARC.cpp -o CMakeFiles/tactics.dir/src/tDefendARC.cpp.s
-
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.requires:
-
-.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.requires
-
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.provides: tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.requires
-	$(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.provides.build
-.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.provides
-
-tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.provides.build: tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o
-
-
 tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o: /home/ss/robocup/src/tactics/src/tIntercept.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tIntercept.cpp.o -c /home/ss/robocup/src/tactics/src/tIntercept.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.i: cmake_force
@@ -203,7 +179,7 @@ tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o.provides.build: tactics/CMak
 
 tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o: /home/ss/robocup/src/tactics/src/tPassToPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o -c /home/ss/robocup/src/tactics/src/tPassToPoint.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.i: cmake_force
@@ -227,7 +203,7 @@ tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o.provides.build: tactics/CM
 
 tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o: /home/ss/robocup/src/tactics/src/tReceive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tReceive.cpp.o -c /home/ss/robocup/src/tactics/src/tReceive.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.i: cmake_force
@@ -251,7 +227,7 @@ tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o.provides.build: tactics/CMakeF
 
 tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o: /home/ss/robocup/src/tactics/src/tGoalie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tGoalie.cpp.o -c /home/ss/robocup/src/tactics/src/tGoalie.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.i: cmake_force
@@ -275,7 +251,7 @@ tactics/CMakeFiles/tactics.dir/src/tGoalie.cpp.o.provides.build: tactics/CMakeFi
 
 tactics/CMakeFiles/tactics.dir/src/tMark.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tMark.cpp.o: /home/ss/robocup/src/tactics/src/tMark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tMark.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tMark.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tMark.cpp.o -c /home/ss/robocup/src/tactics/src/tMark.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tMark.cpp.i: cmake_force
@@ -299,7 +275,7 @@ tactics/CMakeFiles/tactics.dir/src/tMark.cpp.o.provides.build: tactics/CMakeFile
 
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o: /home/ss/robocup/src/tactics/src/tAttackSupport1_Wing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o -c /home/ss/robocup/src/tactics/src/tAttackSupport1_Wing.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.i: cmake_force
@@ -323,7 +299,7 @@ tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o.provides.build: ta
 
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o: /home/ss/robocup/src/tactics/src/tAttackSupport1_Center.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o -c /home/ss/robocup/src/tactics/src/tAttackSupport1_Center.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.i: cmake_force
@@ -347,7 +323,7 @@ tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o.provides.build: 
 
 tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o: /home/ss/robocup/src/tactics/src/tDribbleTurnPass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o -c /home/ss/robocup/src/tactics/src/tDribbleTurnPass.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.i: cmake_force
@@ -369,9 +345,57 @@ tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o.provides: tactics/CMak
 tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o.provides.build: tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o
 
 
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o: /home/ss/robocup/src/tactics/src/tDefendARC_left.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o -c /home/ss/robocup/src/tactics/src/tDefendARC_left.cpp
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.i"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/tactics/src/tDefendARC_left.cpp > CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.i
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.s"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/tactics/src/tDefendARC_left.cpp -o CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.s
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.requires:
+
+.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.requires
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.provides: tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.requires
+	$(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.provides.build
+.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.provides
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.provides.build: tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o
+
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o: /home/ss/robocup/src/tactics/src/tDefendARC_right.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o -c /home/ss/robocup/src/tactics/src/tDefendARC_right.cpp
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.i"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/tactics/src/tDefendARC_right.cpp > CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.i
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.s"
+	cd /home/ss/robocup/build/tactics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/tactics/src/tDefendARC_right.cpp -o CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.s
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.requires:
+
+.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.requires
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.provides: tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.requires
+	$(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.provides.build
+.PHONY : tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.provides
+
+tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.provides.build: tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o
+
+
 tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o: /home/ss/robocup/src/tactics/src/tactic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tactic.cpp.o -c /home/ss/robocup/src/tactics/src/tactic.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tactic.cpp.i: cmake_force
@@ -395,7 +419,7 @@ tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o.provides.build: tactics/CMakeFil
 
 tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o: tactics/CMakeFiles/tactics.dir/flags.make
 tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o: /home/ss/robocup/src/tactics/src/tactic_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o"
 	cd /home/ss/robocup/build/tactics && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tactics.dir/src/tactic_factory.cpp.o -c /home/ss/robocup/src/tactics/src/tactic_factory.cpp
 
 tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.i: cmake_force
@@ -423,7 +447,6 @@ tactics_OBJECTS = \
 "CMakeFiles/tactics.dir/src/tStop.cpp.o" \
 "CMakeFiles/tactics.dir/src/tKickToGoal.cpp.o" \
 "CMakeFiles/tactics.dir/src/tGoToBall.cpp.o" \
-"CMakeFiles/tactics.dir/src/tDefendARC.cpp.o" \
 "CMakeFiles/tactics.dir/src/tIntercept.cpp.o" \
 "CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o" \
 "CMakeFiles/tactics.dir/src/tReceive.cpp.o" \
@@ -432,6 +455,8 @@ tactics_OBJECTS = \
 "CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o" \
 "CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o" \
 "CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o" \
+"CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o" \
+"CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o" \
 "CMakeFiles/tactics.dir/src/tactic.cpp.o" \
 "CMakeFiles/tactics.dir/src/tactic_factory.cpp.o"
 
@@ -442,7 +467,6 @@ tactics_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tStop.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tKickToGoal.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o
-/home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o
@@ -451,6 +475,8 @@ tactics_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o
+/home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o
+/home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/build.make
@@ -500,7 +526,7 @@ tactics_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/libtactics.so: /usr/lib/x86_64-linux-gnu/libQtNetwork.so
 /home/ss/robocup/devel/lib/libtactics.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
 /home/ss/robocup/devel/lib/libtactics.so: tactics/CMakeFiles/tactics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library /home/ss/robocup/devel/lib/libtactics.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library /home/ss/robocup/devel/lib/libtactics.so"
 	cd /home/ss/robocup/build/tactics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tactics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -512,7 +538,6 @@ tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tPos
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tStop.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tKickToGoal.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tGoToBall.cpp.o.requires
-tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tIntercept.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tPassToPoint.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tReceive.cpp.o.requires
@@ -521,6 +546,8 @@ tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tMar
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Center.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tDribbleTurnPass.cpp.o.requires
+tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o.requires
+tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tactic.cpp.o.requires
 tactics/CMakeFiles/tactics.dir/requires: tactics/CMakeFiles/tactics.dir/src/tactic_factory.cpp.o.requires
 

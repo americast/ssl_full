@@ -367,7 +367,7 @@ krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_genpy.dir/all: krssg_ssl_msgs/CMakeFile
 
 # Build rule for subdir invocation for target.
 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_genpy.dir/rule
@@ -618,12 +618,12 @@ krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/all: krssg_ssl
 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/all: krssg_ssl_msgs/CMakeFiles/_krssg_ssl_msgs_generate_messages_check_deps_TacticPacket.dir/all
 	$(MAKE) -f krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/build.make krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/build.make krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=43,44,45,46,47 "Built target krssg_ssl_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=43,44,45,46 "Built target krssg_ssl_msgs_generate_messages_py"
 .PHONY : krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages_py.dir/rule
@@ -1288,7 +1288,7 @@ all: krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : krssg_ssl_msgs/CMakeFiles/krssg_ssl_msgs_generate_messages.dir/rule
@@ -2910,7 +2910,7 @@ all: robojackets/CMakeFiles/robojackets.dir/all
 
 # Build rule for subdir invocation for target.
 robojackets/CMakeFiles/robojackets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 robojackets/CMakeFiles/robojackets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : robojackets/CMakeFiles/robojackets.dir/rule
@@ -2948,7 +2948,7 @@ all: robojackets/CMakeFiles/tester.dir/all
 
 # Build rule for subdir invocation for target.
 robojackets/CMakeFiles/tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 robojackets/CMakeFiles/tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : robojackets/CMakeFiles/tester.dir/rule
@@ -2975,12 +2975,12 @@ clean: robojackets/CMakeFiles/tester.dir/clean
 robojackets/CMakeFiles/robojackets_automoc.dir/all:
 	$(MAKE) -f robojackets/CMakeFiles/robojackets_automoc.dir/build.make robojackets/CMakeFiles/robojackets_automoc.dir/depend
 	$(MAKE) -f robojackets/CMakeFiles/robojackets_automoc.dir/build.make robojackets/CMakeFiles/robojackets_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=76 "Built target robojackets_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num= "Built target robojackets_automoc"
 .PHONY : robojackets/CMakeFiles/robojackets_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 robojackets/CMakeFiles/robojackets_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 robojackets/CMakeFiles/robojackets_automoc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : robojackets/CMakeFiles/robojackets_automoc.dir/rule
@@ -3185,7 +3185,7 @@ navigation/preinstall:
 navigation/CMakeFiles/navigation.dir/all: ssl_common/CMakeFiles/ssl_common.dir/all
 	$(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/depend
 	$(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=48,49 "Built target navigation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=47,48,49 "Built target navigation"
 .PHONY : navigation/CMakeFiles/navigation.dir/all
 
 # Include target in all.
@@ -3195,7 +3195,7 @@ all: navigation/CMakeFiles/navigation.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/CMakeFiles/navigation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/CMakeFiles/navigation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : navigation/CMakeFiles/navigation.dir/rule
@@ -3253,7 +3253,7 @@ all: skills/CMakeFiles/skills.dir/all
 
 # Build rule for subdir invocation for target.
 skills/CMakeFiles/skills.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 skills/CMakeFiles/skills.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : skills/CMakeFiles/skills.dir/rule
@@ -3342,7 +3342,7 @@ all: tactics/CMakeFiles/tactics.dir/all
 
 # Build rule for subdir invocation for target.
 tactics/CMakeFiles/tactics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 tactics/CMakeFiles/tactics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : tactics/CMakeFiles/tactics.dir/rule
@@ -3395,7 +3395,7 @@ ssl_robot/CMakeFiles/robot.dir/all: skills/CMakeFiles/skills.dir/all
 ssl_robot/CMakeFiles/robot.dir/all: tactics/CMakeFiles/tactics.dir/all
 	$(MAKE) -f ssl_robot/CMakeFiles/robot.dir/build.make ssl_robot/CMakeFiles/robot.dir/depend
 	$(MAKE) -f ssl_robot/CMakeFiles/robot.dir/build.make ssl_robot/CMakeFiles/robot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num= "Built target robot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=76 "Built target robot"
 .PHONY : ssl_robot/CMakeFiles/robot.dir/all
 
 # Include target in all.
@@ -3405,7 +3405,7 @@ all: ssl_robot/CMakeFiles/robot.dir/all
 
 # Build rule for subdir invocation for target.
 ssl_robot/CMakeFiles/robot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 ssl_robot/CMakeFiles/robot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
 .PHONY : ssl_robot/CMakeFiles/robot.dir/rule
@@ -3508,61 +3508,61 @@ clean: ssl_robot/CMakeFiles/test_play_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory play
+# Directory level rules for directory plays
 
 # Convenience name for "all" pass in the directory.
-play/all: play/CMakeFiles/play_node.dir/all
+plays/all: plays/CMakeFiles/play_node.dir/all
 
-.PHONY : play/all
+.PHONY : plays/all
 
 # Convenience name for "clean" pass in the directory.
-play/clean: play/CMakeFiles/play_node.dir/clean
+plays/clean: plays/CMakeFiles/play_node.dir/clean
 
-.PHONY : play/clean
+.PHONY : plays/clean
 
 # Convenience name for "preinstall" pass in the directory.
-play/preinstall:
+plays/preinstall:
 
-.PHONY : play/preinstall
+.PHONY : plays/preinstall
 
 #=============================================================================
-# Target rules for target play/CMakeFiles/play_node.dir
+# Target rules for target plays/CMakeFiles/play_node.dir
 
 # All Build rule for target.
-play/CMakeFiles/play_node.dir/all: robojackets/CMakeFiles/robojackets.dir/all
-play/CMakeFiles/play_node.dir/all: ssl_common/CMakeFiles/ssl_common.dir/all
-play/CMakeFiles/play_node.dir/all: navigation/CMakeFiles/navigation.dir/all
-play/CMakeFiles/play_node.dir/all: skills/CMakeFiles/skills.dir/all
-play/CMakeFiles/play_node.dir/all: tactics/CMakeFiles/tactics.dir/all
-	$(MAKE) -f play/CMakeFiles/play_node.dir/build.make play/CMakeFiles/play_node.dir/depend
-	$(MAKE) -f play/CMakeFiles/play_node.dir/build.make play/CMakeFiles/play_node.dir/build
+plays/CMakeFiles/play_node.dir/all: robojackets/CMakeFiles/robojackets.dir/all
+plays/CMakeFiles/play_node.dir/all: ssl_common/CMakeFiles/ssl_common.dir/all
+plays/CMakeFiles/play_node.dir/all: navigation/CMakeFiles/navigation.dir/all
+plays/CMakeFiles/play_node.dir/all: skills/CMakeFiles/skills.dir/all
+plays/CMakeFiles/play_node.dir/all: tactics/CMakeFiles/tactics.dir/all
+	$(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/depend
+	$(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=50,51,52 "Built target play_node"
-.PHONY : play/CMakeFiles/play_node.dir/all
+.PHONY : plays/CMakeFiles/play_node.dir/all
 
 # Include target in all.
-all: play/CMakeFiles/play_node.dir/all
+all: plays/CMakeFiles/play_node.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-play/CMakeFiles/play_node.dir/rule: cmake_check_build_system
+plays/CMakeFiles/play_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 30
-	$(MAKE) -f CMakeFiles/Makefile2 play/CMakeFiles/play_node.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 plays/CMakeFiles/play_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ss/robocup/build/CMakeFiles 0
-.PHONY : play/CMakeFiles/play_node.dir/rule
+.PHONY : plays/CMakeFiles/play_node.dir/rule
 
 # Convenience name for target.
-play_node: play/CMakeFiles/play_node.dir/rule
+play_node: plays/CMakeFiles/play_node.dir/rule
 
 .PHONY : play_node
 
 # clean rule for target.
-play/CMakeFiles/play_node.dir/clean:
-	$(MAKE) -f play/CMakeFiles/play_node.dir/build.make play/CMakeFiles/play_node.dir/clean
-.PHONY : play/CMakeFiles/play_node.dir/clean
+plays/CMakeFiles/play_node.dir/clean:
+	$(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/clean
+.PHONY : plays/CMakeFiles/play_node.dir/clean
 
 # clean rule for target.
-clean: play/CMakeFiles/play_node.dir/clean
+clean: plays/CMakeFiles/play_node.dir/clean
 
 .PHONY : clean
 

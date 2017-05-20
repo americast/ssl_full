@@ -1345,7 +1345,7 @@ play_node: cmake_check_build_system
 
 # fast build rule for target.
 play_node/fast:
-	$(MAKE) -f play/CMakeFiles/play_node.dir/build.make play/CMakeFiles/play_node.dir/build
+	$(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/build
 .PHONY : play_node/fast
 
 #=============================================================================

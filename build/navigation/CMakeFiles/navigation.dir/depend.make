@@ -49,3 +49,8 @@ navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o: /home/ss/robocup
 navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o: /home/ss/robocup/src/navigation/src/planners/scurve.cpp
 navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o: /home/ss/robocup/src/ssl_common/include/ssl_common/geometry.hpp
 
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: /home/ss/robocup/src/navigation/include/navigation/planners/common.h
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: /home/ss/robocup/src/navigation/include/navigation/planners/mergescurve.h
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: /home/ss/robocup/src/navigation/src/planners/wrapperc.cpp
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: /home/ss/robocup/src/ssl_common/include/ssl_common/geometry.hpp
+

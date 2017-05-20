@@ -1079,10 +1079,10 @@ navigation_py_BINARY_DIR:STATIC=/home/ss/robocup/build/navigation_py
 navigation_py_SOURCE_DIR:STATIC=/home/ss/robocup/src/navigation_py
 
 //Value Computed by CMake
-play_BINARY_DIR:STATIC=/home/ss/robocup/build/play
+play_BINARY_DIR:STATIC=/home/ss/robocup/build/plays
 
 //Value Computed by CMake
-play_SOURCE_DIR:STATIC=/home/ss/robocup/src/play
+play_SOURCE_DIR:STATIC=/home/ss/robocup/src/plays
 
 //Value Computed by CMake
 plays_py_BINARY_DIR:STATIC=/home/ss/robocup/build/plays_py

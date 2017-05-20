@@ -60,15 +60,15 @@ include plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/pmain.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/pmain.cpp.o: /home/ss/robocup/src/plays/src/pmain.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plays/CMakeFiles/play_node.dir/src/pmain.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pmain.cpp.o -c /home/ss/robocup/src/plays/src/pmain.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pmain.cpp.o -c /home/ss/robocup/src/plays/src/pmain.cpp
 
 plays/CMakeFiles/play_node.dir/src/pmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/pmain.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pmain.cpp > CMakeFiles/play_node.dir/src/pmain.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pmain.cpp > CMakeFiles/play_node.dir/src/pmain.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/pmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/pmain.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pmain.cpp -o CMakeFiles/play_node.dir/src/pmain.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pmain.cpp -o CMakeFiles/play_node.dir/src/pmain.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/pmain.cpp.o.requires:
 
@@ -84,15 +84,15 @@ plays/CMakeFiles/play_node.dir/src/pmain.cpp.o.provides.build: plays/CMakeFiles/
 plays/CMakeFiles/play_node.dir/src/comdef.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/comdef.cpp.o: /home/ss/robocup/src/plays/src/comdef.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plays/CMakeFiles/play_node.dir/src/comdef.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/comdef.cpp.o -c /home/ss/robocup/src/plays/src/comdef.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/comdef.cpp.o -c /home/ss/robocup/src/plays/src/comdef.cpp
 
 plays/CMakeFiles/play_node.dir/src/comdef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/comdef.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/comdef.cpp > CMakeFiles/play_node.dir/src/comdef.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/comdef.cpp > CMakeFiles/play_node.dir/src/comdef.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/comdef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/comdef.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/comdef.cpp -o CMakeFiles/play_node.dir/src/comdef.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/comdef.cpp -o CMakeFiles/play_node.dir/src/comdef.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/comdef.cpp.o.requires:
 
@@ -108,15 +108,15 @@ plays/CMakeFiles/play_node.dir/src/comdef.cpp.o.provides.build: plays/CMakeFiles
 plays/CMakeFiles/play_node.dir/src/expPS.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/expPS.cpp.o: /home/ss/robocup/src/plays/src/expPS.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object plays/CMakeFiles/play_node.dir/src/expPS.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/expPS.cpp.o -c /home/ss/robocup/src/plays/src/expPS.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/expPS.cpp.o -c /home/ss/robocup/src/plays/src/expPS.cpp
 
 plays/CMakeFiles/play_node.dir/src/expPS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/expPS.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/expPS.cpp > CMakeFiles/play_node.dir/src/expPS.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/expPS.cpp > CMakeFiles/play_node.dir/src/expPS.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/expPS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/expPS.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/expPS.cpp -o CMakeFiles/play_node.dir/src/expPS.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/expPS.cpp -o CMakeFiles/play_node.dir/src/expPS.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/expPS.cpp.o.requires:
 
@@ -132,15 +132,15 @@ plays/CMakeFiles/play_node.dir/src/expPS.cpp.o.provides.build: plays/CMakeFiles/
 plays/CMakeFiles/play_node.dir/src/naivePS.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/naivePS.cpp.o: /home/ss/robocup/src/plays/src/naivePS.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object plays/CMakeFiles/play_node.dir/src/naivePS.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/naivePS.cpp.o -c /home/ss/robocup/src/plays/src/naivePS.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/naivePS.cpp.o -c /home/ss/robocup/src/plays/src/naivePS.cpp
 
 plays/CMakeFiles/play_node.dir/src/naivePS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/naivePS.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/naivePS.cpp > CMakeFiles/play_node.dir/src/naivePS.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/naivePS.cpp > CMakeFiles/play_node.dir/src/naivePS.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/naivePS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/naivePS.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/naivePS.cpp -o CMakeFiles/play_node.dir/src/naivePS.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/naivePS.cpp -o CMakeFiles/play_node.dir/src/naivePS.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/naivePS.cpp.o.requires:
 
@@ -156,15 +156,15 @@ plays/CMakeFiles/play_node.dir/src/naivePS.cpp.o.provides.build: plays/CMakeFile
 plays/CMakeFiles/play_node.dir/src/pExec.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/pExec.cpp.o: /home/ss/robocup/src/plays/src/pExec.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object plays/CMakeFiles/play_node.dir/src/pExec.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pExec.cpp.o -c /home/ss/robocup/src/plays/src/pExec.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pExec.cpp.o -c /home/ss/robocup/src/plays/src/pExec.cpp
 
 plays/CMakeFiles/play_node.dir/src/pExec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/pExec.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pExec.cpp > CMakeFiles/play_node.dir/src/pExec.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pExec.cpp > CMakeFiles/play_node.dir/src/pExec.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/pExec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/pExec.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pExec.cpp -o CMakeFiles/play_node.dir/src/pExec.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pExec.cpp -o CMakeFiles/play_node.dir/src/pExec.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/pExec.cpp.o.requires:
 
@@ -180,15 +180,15 @@ plays/CMakeFiles/play_node.dir/src/pExec.cpp.o.provides.build: plays/CMakeFiles/
 plays/CMakeFiles/play_node.dir/src/playBook.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/playBook.cpp.o: /home/ss/robocup/src/plays/src/playBook.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object plays/CMakeFiles/play_node.dir/src/playBook.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/playBook.cpp.o -c /home/ss/robocup/src/plays/src/playBook.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/playBook.cpp.o -c /home/ss/robocup/src/plays/src/playBook.cpp
 
 plays/CMakeFiles/play_node.dir/src/playBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/playBook.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/playBook.cpp > CMakeFiles/play_node.dir/src/playBook.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/playBook.cpp > CMakeFiles/play_node.dir/src/playBook.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/playBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/playBook.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/playBook.cpp -o CMakeFiles/play_node.dir/src/playBook.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/playBook.cpp -o CMakeFiles/play_node.dir/src/playBook.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/playBook.cpp.o.requires:
 
@@ -204,15 +204,15 @@ plays/CMakeFiles/play_node.dir/src/playBook.cpp.o.provides.build: plays/CMakeFil
 plays/CMakeFiles/play_node.dir/src/ps.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/ps.cpp.o: /home/ss/robocup/src/plays/src/ps.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object plays/CMakeFiles/play_node.dir/src/ps.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/ps.cpp.o -c /home/ss/robocup/src/plays/src/ps.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/ps.cpp.o -c /home/ss/robocup/src/plays/src/ps.cpp
 
 plays/CMakeFiles/play_node.dir/src/ps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/ps.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/ps.cpp > CMakeFiles/play_node.dir/src/ps.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/ps.cpp > CMakeFiles/play_node.dir/src/ps.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/ps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/ps.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/ps.cpp -o CMakeFiles/play_node.dir/src/ps.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/ps.cpp -o CMakeFiles/play_node.dir/src/ps.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/ps.cpp.o.requires:
 
@@ -228,15 +228,15 @@ plays/CMakeFiles/play_node.dir/src/ps.cpp.o.provides.build: plays/CMakeFiles/pla
 plays/CMakeFiles/play_node.dir/src/robot.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/robot.cpp.o: /home/ss/robocup/src/plays/src/robot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object plays/CMakeFiles/play_node.dir/src/robot.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/robot.cpp.o -c /home/ss/robocup/src/plays/src/robot.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/robot.cpp.o -c /home/ss/robocup/src/plays/src/robot.cpp
 
 plays/CMakeFiles/play_node.dir/src/robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/robot.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/robot.cpp > CMakeFiles/play_node.dir/src/robot.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/robot.cpp > CMakeFiles/play_node.dir/src/robot.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/robot.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/robot.cpp -o CMakeFiles/play_node.dir/src/robot.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/robot.cpp -o CMakeFiles/play_node.dir/src/robot.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/robot.cpp.o.requires:
 
@@ -252,15 +252,15 @@ plays/CMakeFiles/play_node.dir/src/robot.cpp.o.provides.build: plays/CMakeFiles/
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o: /home/ss/robocup/src/plays/src/pPassTest.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pPassTest.cpp.o -c /home/ss/robocup/src/plays/src/pPassTest.cpp
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/pPassTest.cpp.o -c /home/ss/robocup/src/plays/src/pPassTest.cpp
 
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/pPassTest.cpp.i"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pPassTest.cpp > CMakeFiles/play_node.dir/src/pPassTest.cpp.i
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/pPassTest.cpp > CMakeFiles/play_node.dir/src/pPassTest.cpp.i
 
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/pPassTest.cpp.s"
-	cd /home/ss/robocup/build/plays && /usr/bin/g++-4.9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pPassTest.cpp -o CMakeFiles/play_node.dir/src/pPassTest.cpp.s
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/pPassTest.cpp -o CMakeFiles/play_node.dir/src/pPassTest.cpp.s
 
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o.requires:
 
@@ -273,6 +273,30 @@ plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o.provides: plays/CMakeFiles/pl
 plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o.provides.build: plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o
 
 
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o: plays/CMakeFiles/play_node.dir/flags.make
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o: /home/ss/robocup/src/plays/src/refPlays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o"
+	cd /home/ss/robocup/build/plays && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/play_node.dir/src/refPlays.cpp.o -c /home/ss/robocup/src/plays/src/refPlays.cpp
+
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/play_node.dir/src/refPlays.cpp.i"
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/plays/src/refPlays.cpp > CMakeFiles/play_node.dir/src/refPlays.cpp.i
+
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/play_node.dir/src/refPlays.cpp.s"
+	cd /home/ss/robocup/build/plays && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/plays/src/refPlays.cpp -o CMakeFiles/play_node.dir/src/refPlays.cpp.s
+
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.requires:
+
+.PHONY : plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.requires
+
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.provides: plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.requires
+	$(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.provides.build
+.PHONY : plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.provides
+
+plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.provides.build: plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o
+
+
 # Object files for target play_node
 play_node_OBJECTS = \
 "CMakeFiles/play_node.dir/src/pmain.cpp.o" \
@@ -283,7 +307,8 @@ play_node_OBJECTS = \
 "CMakeFiles/play_node.dir/src/playBook.cpp.o" \
 "CMakeFiles/play_node.dir/src/ps.cpp.o" \
 "CMakeFiles/play_node.dir/src/robot.cpp.o" \
-"CMakeFiles/play_node.dir/src/pPassTest.cpp.o"
+"CMakeFiles/play_node.dir/src/pPassTest.cpp.o" \
+"CMakeFiles/play_node.dir/src/refPlays.cpp.o"
 
 # External object files for target play_node
 play_node_EXTERNAL_OBJECTS =
@@ -297,6 +322,7 @@ play_node_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/src/ps.cpp.o
 /home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/src/robot.cpp.o
 /home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o
+/home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o
 /home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/build.make
 /home/ss/robocup/devel/lib/play/play_node: /home/ss/robocup/devel/lib/libtactics.so
 /home/ss/robocup/devel/lib/play/play_node: /home/ss/robocup/devel/lib/libskills.so
@@ -353,7 +379,7 @@ play_node_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/play/play_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
 /home/ss/robocup/devel/lib/play/play_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 /home/ss/robocup/devel/lib/play/play_node: plays/CMakeFiles/play_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /home/ss/robocup/devel/lib/play/play_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /home/ss/robocup/devel/lib/play/play_node"
 	cd /home/ss/robocup/build/plays && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/play_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -370,6 +396,7 @@ plays/CMakeFiles/play_node.dir/requires: plays/CMakeFiles/play_node.dir/src/play
 plays/CMakeFiles/play_node.dir/requires: plays/CMakeFiles/play_node.dir/src/ps.cpp.o.requires
 plays/CMakeFiles/play_node.dir/requires: plays/CMakeFiles/play_node.dir/src/robot.cpp.o.requires
 plays/CMakeFiles/play_node.dir/requires: plays/CMakeFiles/play_node.dir/src/pPassTest.cpp.o.requires
+plays/CMakeFiles/play_node.dir/requires: plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o.requires
 
 .PHONY : plays/CMakeFiles/play_node.dir/requires
 

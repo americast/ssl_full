@@ -63,9 +63,6 @@ vision_comm/CMakeFiles/vision_node.dir/src/robocup_ssl_client.cpp.o: vision_comm
 vision_comm/CMakeFiles/vision_node.dir/src/robocup_ssl_client.cpp.o: vision_comm/messages_robocup_ssl_refbox_log.pb.h
 vision_comm/CMakeFiles/vision_node.dir/src/robocup_ssl_client.cpp.o: vision_comm/messages_robocup_ssl_wrapper.pb.h
 
-vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/devel/include/krssg_ssl_msgs/SSL_DetectionBall.h
-vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/devel/include/krssg_ssl_msgs/SSL_DetectionFrame.h
-vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/devel/include/krssg_ssl_msgs/SSL_DetectionRobot.h
 vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/src/vision_comm/include/netraw.h
 vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/src/vision_comm/include/robocup_ssl_client.h
 vision_comm/CMakeFiles/vision_node.dir/src/vision_node.cpp.o: /home/ss/robocup/src/vision_comm/include/timer.h

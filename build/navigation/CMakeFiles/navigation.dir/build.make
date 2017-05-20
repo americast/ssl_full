@@ -57,9 +57,33 @@ include navigation/CMakeFiles/navigation.dir/progress.make
 # Include the compile flags for this target's objects.
 include navigation/CMakeFiles/navigation.dir/flags.make
 
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o: /home/ss/robocup/src/navigation/src/planners/wrapperc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o"
+	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o -c /home/ss/robocup/src/navigation/src/planners/wrapperc.cpp
+
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.i"
+	cd /home/ss/robocup/build/navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ss/robocup/src/navigation/src/planners/wrapperc.cpp > CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.i
+
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.s"
+	cd /home/ss/robocup/build/navigation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ss/robocup/src/navigation/src/planners/wrapperc.cpp -o CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.s
+
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.requires:
+
+.PHONY : navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.requires
+
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.provides: navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.requires
+	$(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.provides.build
+.PHONY : navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.provides
+
+navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.provides.build: navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o
+
+
 navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
 navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o: /home/ss/robocup/src/navigation/src/planners/mergescurve.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o"
 	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o -c /home/ss/robocup/src/navigation/src/planners/mergescurve.cpp
 
 navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.i: cmake_force
@@ -83,7 +107,7 @@ navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o.provides.bui
 
 navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
 navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o: /home/ss/robocup/src/navigation/src/planners/naivepp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o"
 	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o -c /home/ss/robocup/src/navigation/src/planners/naivepp.cpp
 
 navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.i: cmake_force
@@ -107,7 +131,7 @@ navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o.provides.build: 
 
 navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
 navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o: /home/ss/robocup/src/navigation/src/planners/errt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o"
 	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/planners/errt.cpp.o -c /home/ss/robocup/src/navigation/src/planners/errt.cpp
 
 navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.i: cmake_force
@@ -131,7 +155,7 @@ navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o.provides.build: nav
 
 navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
 navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o: /home/ss/robocup/src/navigation/src/planners/scurve.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o"
 	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/planners/scurve.cpp.o -c /home/ss/robocup/src/navigation/src/planners/scurve.cpp
 
 navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.i: cmake_force
@@ -155,7 +179,7 @@ navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.o.provides.build: n
 
 navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o: navigation/CMakeFiles/navigation.dir/flags.make
 navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o: /home/ss/robocup/src/navigation/src/controllers/waypoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o"
 	cd /home/ss/robocup/build/navigation && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o -c /home/ss/robocup/src/navigation/src/controllers/waypoint.cpp
 
 navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.i: cmake_force
@@ -179,6 +203,7 @@ navigation/CMakeFiles/navigation.dir/src/controllers/waypoint.cpp.o.provides.bui
 
 # Object files for target navigation
 navigation_OBJECTS = \
+"CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o" \
 "CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o" \
 "CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o" \
 "CMakeFiles/navigation.dir/src/planners/errt.cpp.o" \
@@ -188,6 +213,7 @@ navigation_OBJECTS = \
 # External object files for target navigation
 navigation_EXTERNAL_OBJECTS =
 
+/home/ss/robocup/devel/lib/libnavigation.so: navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o
 /home/ss/robocup/devel/lib/libnavigation.so: navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o
 /home/ss/robocup/devel/lib/libnavigation.so: navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o
 /home/ss/robocup/devel/lib/libnavigation.so: navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o
@@ -215,7 +241,7 @@ navigation_EXTERNAL_OBJECTS =
 /home/ss/robocup/devel/lib/libnavigation.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/ss/robocup/devel/lib/libnavigation.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 /home/ss/robocup/devel/lib/libnavigation.so: navigation/CMakeFiles/navigation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/ss/robocup/devel/lib/libnavigation.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ss/robocup/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library /home/ss/robocup/devel/lib/libnavigation.so"
 	cd /home/ss/robocup/build/navigation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/navigation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +249,7 @@ navigation/CMakeFiles/navigation.dir/build: /home/ss/robocup/devel/lib/libnaviga
 
 .PHONY : navigation/CMakeFiles/navigation.dir/build
 
+navigation/CMakeFiles/navigation.dir/requires: navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o.requires
 navigation/CMakeFiles/navigation.dir/requires: navigation/CMakeFiles/navigation.dir/src/planners/mergescurve.cpp.o.requires
 navigation/CMakeFiles/navigation.dir/requires: navigation/CMakeFiles/navigation.dir/src/planners/naivepp.cpp.o.requires
 navigation/CMakeFiles/navigation.dir/requires: navigation/CMakeFiles/navigation.dir/src/planners/errt.cpp.o.requires

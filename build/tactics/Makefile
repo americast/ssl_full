@@ -234,32 +234,59 @@ src/tAttackSupport1_Wing.cpp.s:
 	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tAttackSupport1_Wing.cpp.s
 .PHONY : src/tAttackSupport1_Wing.cpp.s
 
-src/tDefendARC.o: src/tDefendARC.cpp.o
+src/tDefendARC_left.o: src/tDefendARC_left.cpp.o
 
-.PHONY : src/tDefendARC.o
+.PHONY : src/tDefendARC_left.o
 
 # target to build an object file
-src/tDefendARC.cpp.o:
-	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.o
-.PHONY : src/tDefendARC.cpp.o
+src/tDefendARC_left.cpp.o:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.o
+.PHONY : src/tDefendARC_left.cpp.o
 
-src/tDefendARC.i: src/tDefendARC.cpp.i
+src/tDefendARC_left.i: src/tDefendARC_left.cpp.i
 
-.PHONY : src/tDefendARC.i
+.PHONY : src/tDefendARC_left.i
 
 # target to preprocess a source file
-src/tDefendARC.cpp.i:
-	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.i
-.PHONY : src/tDefendARC.cpp.i
+src/tDefendARC_left.cpp.i:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.i
+.PHONY : src/tDefendARC_left.cpp.i
 
-src/tDefendARC.s: src/tDefendARC.cpp.s
+src/tDefendARC_left.s: src/tDefendARC_left.cpp.s
 
-.PHONY : src/tDefendARC.s
+.PHONY : src/tDefendARC_left.s
 
 # target to generate assembly for a file
-src/tDefendARC.cpp.s:
-	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC.cpp.s
-.PHONY : src/tDefendARC.cpp.s
+src/tDefendARC_left.cpp.s:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_left.cpp.s
+.PHONY : src/tDefendARC_left.cpp.s
+
+src/tDefendARC_right.o: src/tDefendARC_right.cpp.o
+
+.PHONY : src/tDefendARC_right.o
+
+# target to build an object file
+src/tDefendARC_right.cpp.o:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.o
+.PHONY : src/tDefendARC_right.cpp.o
+
+src/tDefendARC_right.i: src/tDefendARC_right.cpp.i
+
+.PHONY : src/tDefendARC_right.i
+
+# target to preprocess a source file
+src/tDefendARC_right.cpp.i:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.i
+.PHONY : src/tDefendARC_right.cpp.i
+
+src/tDefendARC_right.s: src/tDefendARC_right.cpp.s
+
+.PHONY : src/tDefendARC_right.s
+
+# target to generate assembly for a file
+src/tDefendARC_right.cpp.s:
+	cd /home/ss/robocup/build && $(MAKE) -f tactics/CMakeFiles/tactics.dir/build.make tactics/CMakeFiles/tactics.dir/src/tDefendARC_right.cpp.s
+.PHONY : src/tDefendARC_right.cpp.s
 
 src/tDribbleTurnPass.o: src/tDribbleTurnPass.cpp.o
 
@@ -605,9 +632,12 @@ help:
 	@echo "... src/tAttackSupport1_Wing.o"
 	@echo "... src/tAttackSupport1_Wing.i"
 	@echo "... src/tAttackSupport1_Wing.s"
-	@echo "... src/tDefendARC.o"
-	@echo "... src/tDefendARC.i"
-	@echo "... src/tDefendARC.s"
+	@echo "... src/tDefendARC_left.o"
+	@echo "... src/tDefendARC_left.i"
+	@echo "... src/tDefendARC_left.s"
+	@echo "... src/tDefendARC_right.o"
+	@echo "... src/tDefendARC_right.i"
+	@echo "... src/tDefendARC_right.s"
 	@echo "... src/tDribbleTurnPass.o"
 	@echo "... src/tDribbleTurnPass.i"
 	@echo "... src/tDribbleTurnPass.s"

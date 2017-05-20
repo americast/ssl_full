@@ -315,6 +315,33 @@ src/planners/scurve.cpp.s:
 	cd /home/ss/robocup/build && $(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/src/planners/scurve.cpp.s
 .PHONY : src/planners/scurve.cpp.s
 
+src/planners/wrapperc.o: src/planners/wrapperc.cpp.o
+
+.PHONY : src/planners/wrapperc.o
+
+# target to build an object file
+src/planners/wrapperc.cpp.o:
+	cd /home/ss/robocup/build && $(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.o
+.PHONY : src/planners/wrapperc.cpp.o
+
+src/planners/wrapperc.i: src/planners/wrapperc.cpp.i
+
+.PHONY : src/planners/wrapperc.i
+
+# target to preprocess a source file
+src/planners/wrapperc.cpp.i:
+	cd /home/ss/robocup/build && $(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.i
+.PHONY : src/planners/wrapperc.cpp.i
+
+src/planners/wrapperc.s: src/planners/wrapperc.cpp.s
+
+.PHONY : src/planners/wrapperc.s
+
+# target to generate assembly for a file
+src/planners/wrapperc.cpp.s:
+	cd /home/ss/robocup/build && $(MAKE) -f navigation/CMakeFiles/navigation.dir/build.make navigation/CMakeFiles/navigation.dir/src/planners/wrapperc.cpp.s
+.PHONY : src/planners/wrapperc.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -344,6 +371,9 @@ help:
 	@echo "... src/planners/scurve.o"
 	@echo "... src/planners/scurve.i"
 	@echo "... src/planners/scurve.s"
+	@echo "... src/planners/wrapperc.o"
+	@echo "... src/planners/wrapperc.i"
+	@echo "... src/planners/wrapperc.s"
 .PHONY : help
 
 

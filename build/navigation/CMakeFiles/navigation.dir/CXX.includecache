@@ -143,6 +143,12 @@ cstdio
 -
 cmath
 -
+fstream
+-
+iostream
+-
+vector
+-
 planners/mergescurve.h
 /home/ss/robocup/src/navigation/src/planners/planners/mergescurve.h
 
@@ -166,6 +172,12 @@ cstdlib
 cstdio
 -
 cmath
+-
+
+/home/ss/robocup/src/navigation/src/planners/wrapperc.cpp
+planners/mergescurve.h
+/home/ss/robocup/src/navigation/src/planners/planners/mergescurve.h
+vector
 -
 
 /home/ss/robocup/src/ssl_common/include/ssl_common/config.h

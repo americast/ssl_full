@@ -396,6 +396,33 @@ src/ps.cpp.s:
 	cd /home/ss/robocup/build && $(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/src/ps.cpp.s
 .PHONY : src/ps.cpp.s
 
+src/refPlays.o: src/refPlays.cpp.o
+
+.PHONY : src/refPlays.o
+
+# target to build an object file
+src/refPlays.cpp.o:
+	cd /home/ss/robocup/build && $(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/src/refPlays.cpp.o
+.PHONY : src/refPlays.cpp.o
+
+src/refPlays.i: src/refPlays.cpp.i
+
+.PHONY : src/refPlays.i
+
+# target to preprocess a source file
+src/refPlays.cpp.i:
+	cd /home/ss/robocup/build && $(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/src/refPlays.cpp.i
+.PHONY : src/refPlays.cpp.i
+
+src/refPlays.s: src/refPlays.cpp.s
+
+.PHONY : src/refPlays.s
+
+# target to generate assembly for a file
+src/refPlays.cpp.s:
+	cd /home/ss/robocup/build && $(MAKE) -f plays/CMakeFiles/play_node.dir/build.make plays/CMakeFiles/play_node.dir/src/refPlays.cpp.s
+.PHONY : src/refPlays.cpp.s
+
 src/robot.o: src/robot.cpp.o
 
 .PHONY : src/robot.o
@@ -461,6 +488,9 @@ help:
 	@echo "... src/ps.o"
 	@echo "... src/ps.i"
 	@echo "... src/ps.s"
+	@echo "... src/refPlays.o"
+	@echo "... src/refPlays.i"
+	@echo "... src/refPlays.s"
 	@echo "... src/robot.o"
 	@echo "... src/robot.i"
 	@echo "... src/robot.s"

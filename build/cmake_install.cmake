@@ -131,7 +131,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ss/robocup/build/skills/cmake_install.cmake")
   include("/home/ss/robocup/build/tactics/cmake_install.cmake")
   include("/home/ss/robocup/build/ssl_robot/cmake_install.cmake")
-  include("/home/ss/robocup/build/play/cmake_install.cmake")
+  include("/home/ss/robocup/build/plays/cmake_install.cmake")
   include("/home/ss/robocup/build/tactics_py/cmake_install.cmake")
   include("/home/ss/robocup/build/vision_comm/cmake_install.cmake")
 

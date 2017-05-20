@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ss/robocup/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ss/robocup/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ss/robocup/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/ss/robocup/build"
-export PYTHONPATH="/home/ss/robocup/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ss/robocup/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/ss/robocup/src:$ROS_PACKAGE_PATH"
