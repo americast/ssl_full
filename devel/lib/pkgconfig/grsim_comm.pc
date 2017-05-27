@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/devel
+
+Name: grsim_comm
+Description: Description of grsim_comm
+Version: 0.0.0
+Cflags: -I/home/aif/ssl/americast/src/grsim_comm/include
+Libs: -L/home/aif/ssl/americast/devel/lib -lssl_communication
+Requires: roscpp rospy std_msgs krssg_ssl_msgs

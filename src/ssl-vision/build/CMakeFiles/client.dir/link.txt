@@ -1,0 +1,1 @@
+/usr/bin/c++   -DNDEBUG -O3 -march=native -Wl,--no-as-needed   CMakeFiles/client.dir/src/client/main.cpp.o  -o ../bin/client -rdynamic -lQtOpenGL -lQtGui -lQtXml -lQtNetwork -lQtCore -ldc1394 -ljpeg -lpng -lprotobuf -lpthread -lGL -lGLU libsslvision.a -lpthread -ldc1394 -L/usr/lib/x86_64-linux-gnu/ -lQtCore 

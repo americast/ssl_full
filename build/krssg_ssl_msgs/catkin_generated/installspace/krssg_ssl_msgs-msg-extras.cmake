@@ -1,0 +1,2 @@
+set(krssg_ssl_msgs_MESSAGE_FILES "msg/gr_Commands.msg;msg/gr_Packet.msg;msg/gr_Replacement.msg;msg/gr_RobotReplacement.msg;msg/gr_Robot_Command.msg;msg/gr_BallReplacement.msg;msg/SSL_DetectionFrame.msg;msg/SSL_DetectionRobot.msg;msg/SSL_DetectionBall.msg;msg/BeliefState.msg;msg/TacticPacket.msg;msg/SSL_Refbox.msg;msg/sslDebug_Line.msg;msg/sslDebug_Circle.msg;msg/sslDebug_Data.msg")
+set(krssg_ssl_msgs_SERVICE_FILES "")

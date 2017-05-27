@@ -1,0 +1,2 @@
+belief_state:grSim:grsim_comm:kgpkubs_launch:krssg_ssl_msgs:navigation:navigation_py:plays:plays_py:robojackets:skills:skills_py:ssl_common:ssl_robot:tactics:tactics_py:traj_controller:vision_comm
+-DCATKIN_DEVEL_PREFIX=/home/aif/ssl/americast/devel -DCMAKE_INSTALL_PREFIX=/home/aif/ssl/americast/install -G Unix Makefiles

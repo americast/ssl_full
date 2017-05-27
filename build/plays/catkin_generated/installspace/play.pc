@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/install
+
+Name: play
+Description: Description of play
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aif/ssl/americast/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/install
+
+Name: skills_py
+Description: Description of skills_py
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aif/ssl/americast/install/lib 
+Requires: 

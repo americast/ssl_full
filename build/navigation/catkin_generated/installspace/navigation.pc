@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/install
+
+Name: navigation
+Description: Description of navigation
+Version: 0.0.0
+Cflags: -I/home/aif/ssl/americast/install/include
+Libs: -L/home/aif/ssl/americast/install/lib -lnavigation
+Requires: roscpp rospy std_msgs

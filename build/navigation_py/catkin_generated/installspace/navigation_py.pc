@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/install
+
+Name: navigation_py
+Description: Description of navigation_py
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aif/ssl/americast/install/lib 
+Requires: 

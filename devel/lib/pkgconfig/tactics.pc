@@ -1,0 +1,8 @@
+prefix=/home/aif/ssl/americast/devel
+
+Name: tactics
+Description: Description of tactics
+Version: 0.0.0
+Cflags: -I/home/aif/ssl/americast/src/tactics/include
+Libs: -L/home/aif/ssl/americast/devel/lib -ltactics
+Requires: roscpp rospy std_msgs
